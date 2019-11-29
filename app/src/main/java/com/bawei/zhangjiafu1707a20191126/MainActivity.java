@@ -24,6 +24,7 @@ import java.util.ArrayList;
 public class MainActivity extends BaseActivity {
 
     private TabLayout tab;
+    int len=0;
     private ViewPager vp;
     private Fragment_Login fragment_1;
     private Fragment_Login fragment_2;
