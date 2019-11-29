@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/vis_image"
+        android:layout_width="match_parent"
+        android:background="@mipmap/wuwang"
+        android:visibility="invisible"
+        android:layout_height="match_parent">
+    </ImageView>
+<com.qy.xlistview.XListView
+    android:id="@+id/xlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</com.qy.xlistview.XListView>
+</RelativeLayout>

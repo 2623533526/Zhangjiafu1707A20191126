@@ -1,0 +1,2 @@
+include ':app', ':xlistview_library'
+rootProject.name='Zhangjiafu1707A20191126'
